@@ -1,0 +1,21 @@
+##fileformat=VCFv4.0
+##source=vcfrandom
+##phasing=none
+##INFO=<ID=NS,Number=1,Type=Integer,Description="Number of samples with data">
+##INFO=<ID=AC,Number=1,Type=Integer,Description="Total number of alternate alleles in called genotypes">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total read depth at the locus">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Estimated allele frequency in the range (0,1]">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality, the Phred-scaled marginal (or unconditional) probability of the called genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	sample1	sample2
+LG01	1	.	G	A	100	.	DP=9	GT	0|1	0/1
+LG01	2	.	C	A	100	.	DP=41	GT	0|1	1|1
+LG01	3	.	T	A	100	.	DP=50	GT	0|1	1|1
+LG01	4	.	T	A	100	.	DP=18	GT	0|1	0|0
+LG01	5	.	A	T	100	.	DP=50	GT	0|1	0|0
+LG01	6	.	C	T	100	.	DP=57	GT	0|1	0|0
+LG01	7	.	G	C	100	.	DP=59	GT	0|1	0|1
+LG01	8	.	A	T	100	.	DP=62	GT	0|1	1|1
+LG01	9	.	A	G	100	.	DP=41	GT	0|1	0|1
